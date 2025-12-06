@@ -406,8 +406,13 @@ class HGTTrainer:
         print(f"  Val:   {len(val_ids)} patients")
         print(f"  Test:  {len(test_ids)} patients")
         
+        # Create patient_id to index mapping
+        # Patient IDs are sequential starting from 0 in pyHGT format
+        patient_id_to_idx = {pid: idx for idx, pid in enumerate(sorted(patient_to_labels.keys()))}
+        
         self.pyhgt_data = pyhgt_data
         self.patient_to_labels = patient_to_labels
+        self.patient_id_to_idx = patient_id_to_idx
         self.entity_maps = entity_maps
         self.patient_data = patient_data
         
@@ -502,7 +507,7 @@ class HGTTrainer:
         patient_emb = self.get_patient_embeddings()
         
         # Batch training
-        train_indices = [self.entity_maps['patient'][pid] for pid in self.train_ids]
+        train_indices = [self.patient_id_to_idx[pid] for pid in self.train_ids]
         train_labels = torch.stack([self.patient_to_labels[pid] for pid in self.train_ids]).to(self.device)
         
         total_loss = 0
@@ -568,7 +573,7 @@ class HGTTrainer:
         patient_emb = self.get_patient_embeddings()
         
         # Get test patients
-        eval_indices = [self.entity_maps['patient'][pid] for pid in patient_ids]
+        eval_indices = [self.patient_id_to_idx[pid] for pid in patient_ids]
         eval_labels = torch.stack([self.patient_to_labels[pid] for pid in patient_ids]).to(self.device)
         
         eval_emb = patient_emb[eval_indices]
