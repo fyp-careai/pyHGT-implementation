@@ -21,8 +21,11 @@ def load_trained_model(checkpoint_path: str) -> HGTTrainer:
     """
     config = HGTConfig()  # Use default config or modify as needed
     trainer = HGTTrainer(config)
+
+    trainer.prepare_data()
+    trainer.build_model()
     
-    checkpoint = torch.load(checkpoint_path)
+    checkpoint = torch.load(checkpoint_path, map_location=config.device)
     trainer.gnn_model.load_state_dict(checkpoint['gnn_model'])
     trainer.disease_predictor.load_state_dict(checkpoint['disease_predictor'])
     
@@ -71,4 +74,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-    
