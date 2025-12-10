@@ -1,0 +1,183 @@
+test_name,min,max,organ,organ,disease,disease,disease
+TSH,0.4,4,thyroid,N/A,thyroid disorders,N/A,N/A
+Fasting Venous Plasma Glucose,100,126,pancreas,N/A,diabetes mellitus,N/A,N/A
+Lymphocytes#  % Value,20,40,immune system,N/A,infections,Immune disorders,N/A
+RDW-SD Absolute Value,39,46,blood,N/A,anemia,N/A,N/A
+RBC Absolute Value,4.11,5.51,blood,N/A,anemia,N/A,N/A
+PCV(HCT) Absolute Value,38,51,blood,N/A,anemia,dehydration,N/A
+Neutrophils# Absolute Value,2,7,immune system,N/A,infections,N/A,N/A
+Neutrophils# % Value,40,70,immune system,N/A,infections,N/A,N/A
+Monocytes# Absolute Value,0.2,1,immune system,N/A,chronic infections,N/A,N/A
+Monocytes# % Value,2,8,immune system,N/A,chronic infections,N/A,N/A
+MPV Absolute Value,7.5,12,blood,N/A,platelet disorders,N/A,N/A
+MCV Absolute Value,80,100,blood,N/A,anemia (B12/folate),N/A,N/A
+MCHC Absolute Value,31,36,blood,N/A,anemia,N/A,N/A
+Haemoglobin Absolute Value,12.5,16,blood,N/A,anemia,N/A,N/A
+MCH Absolute Value,27,34,blood,N/A,anemia,N/A,N/A
+WBC Absolute Value,4,11,immune system,N/A,infections,leukemia,N/A
+Lymphocytes# Absolute Value,1,3,immune system,N/A,infections,Immune disorders,N/A
+RDW-CV Absolute Value,11.5,14.5,blood,N/A,anemia,N/A,N/A
+Platelet Count Absolute Value,150,450,blood,N/A,thrombocytopenia,N/A,N/A
+PDW New Value,9,17,blood,N/A,bone marrow disorders,vitamin deficiencies,viral infections
+P-LCC New Value,44,140,blood,N/A,hyperlipidaemia,thrombocytopenia,N/A
+P-LCR New Value,13,43,blood,N/A,cardiovascular diseases,N/A,N/A
+PCT New Value,0.1,0.28,blood,N/A,pneumonia ,meningitis,urinary tract infections
+Basophils# % Value,0,1,blood,N/A,infections,N/A,N/A
+Basophils# Absolute Value,0,0.1,blood,N/A,hematologic disorders,N/A,N/A
+Eosinophils# % Value,1,6,blood,N/A,allergies,asthma,N/A
+Eosinophils# Absolute Value,0.02,0.5,blood,N/A,allergies,asthma,N/A
+HbA1c Result,4,5.6,pancreas,N/A,diabetes mellitus,N/A,N/A
+Serum - Potassium,3.5,5.1,kidney,N/A,renal failure,N/A,N/A
+Serum - Sodium,135,145,kidney,N/A,chronic kidney disease,N/A,N/A
+Serum - Chloride,98,106,kidney,N/A,chronic kidney disease,N/A,N/A
+Serum_Creatinine_Result,0.65,1.2,kidney,N/A,chronic kidney disease,N/A,N/A
+eGFR Result,90,N/A,kidney,N/A,chronic kidney disease,N/A,N/A
+Serum creatnine value in mg/dL,0.6,1.3,kidney,N/A,chronic kidney disease,N/A,N/A
+Triglycerides,0,150,liver,N/A,diabetes mellitus,N/A,N/A
+Total Cholesterol,0,200,cardiovascular system,N/A,cholestrol,N/A,N/A
+HDL Cholesterol,45,N/A,cardiovascular system,N/A,cholestrol,N/A,N/A
+LDL/HDL Ratio,0,3.5,cardiovascular system,N/A,cholestrol,N/A,N/A
+Cholesterol/HDL Ratio,0,5,cardiovascular system,N/A,cholestrol,N/A,N/A
+LDL-Cholesterol,0,100,cardiovascular system,N/A,cholestrol,N/A,N/A
+VLDL-Cholesterol,5,40,cardiovascular system,N/A,cholestrol,N/A,N/A
+Urinary_Creatinine,20,320,kidney,N/A,chronic kidney disease,N/A,N/A
+Urine_for_Microalbumin,0,30,kidney,N/A,chronic kidney disease,N/A,N/A
+Free T4 Result,0.8,1.8,thyroid,N/A,thyroid disorders,N/A,N/A
+ESR Result,0,15,blood,N/A,inflammation,N/A,N/A
+Specific Gravity Result,1.01,1.03,urinary system,N/A,chronic kidney disease,diabetes,N/A
+SGPT (ALT) Result,7,56,liver,N/A,cirrhosis,N/A,N/A
+Serum - Calcium Result,8.5,10.5,kidney,N/A,thyroid disorders,kidney diseases,N/A
+CRP Result,0,5,cardiovascular system,N/A,cardiovascular diseases,N/A,N/A
+Total Protein Value,6,8.3,liver,kidney,chronic liver disease,kidney disease,N/A
+Alkaline Phosphatase Value,44,147,liver,N/A,biliary obstruction,N/A,N/A
+Total Bilirubin value,0.2,1.2,liver,N/A,acute,chronic liver disease,N/A
+GGT Value,6.5,48.5,liver,N/A,chronic liver disease,N/A,N/A
+Direct Bilirubin value,0,0.3,liver,N/A,chronic liver disease,N/A,N/A
+S.G.P.T (ALT) Value,7,56,liver,N/A,chronic liver disease,N/A,N/A
+Serum - Albumin value,3.4,5.4,liver,kidney,chronic liver disease,chronic kidney disease,N/A
+S.G.O.T (AST) Value,10,40,liver,N/A,cirrhosis,N/A,N/A
+Albumin:Globulin Ratio value,1.1,2.2,liver,kidney,chronic liver disease,chronic kidney disease,N/A
+Serum - Globulin value,2,3.5,liver,N/A,cirrhosis,N/A,N/A
+Indirect Bilirubin value,0.2,0.8,liver,N/A,chronic liver disease,N/A,N/A
+SGOT (AST) Result,10,40,liver,N/A,cirrhosis,N/A,N/A
+Total Cholesterol Result,0,200,cardiovascular system,liver,cholestrol,N/A,N/A
+serum Ferritin,22.5,300,liver,N/A,anemia,N/A,N/A
+Serum - Ionized Calcium Result,1.12,1.32,nervous system,kidney,hypoparathyroidism,chronic kidney disease,N/A
+Serum - Uric Acid Result,2.8,6.5,kidney,N/A,chronic kidney disease,N/A,N/A
+Free T3 Value,2,4.4,thyroid,N/A,thyroid disorders,N/A,N/A
+Urinary Protein,0,150,kidney,N/A,chronic kidney disease,N/A,N/A
+Blood Urea Result,7,20,kidney,liver,chronic kidney disease,N/A,N/A
+Urinary Creatinine,20,320,kidney,N/A,chronic kidney disease,N/A,N/A
+UPCR Value,0,0.2,kidney,N/A,chronic kidney disease,N/A,N/A
+Serum - Creatinine,0.6,1.3,kidney,N/A,chronic kidney disease,N/A,N/A
+Serum Albumin Result,3.4,5.4,kidney,N/A,chronic kidney disease,N/A,N/A
+Albumin Corrected Calcium Result,8.5,10.5,kidney,N/A,chronic kidney disease,N/A,N/A
+Serum Calcium Result,8.5,10.5,kidney,N/A,chronic kidney disease,N/A,N/A
+CPK Result,42.5,152.5,cardiovascular system,N/A,cardiovascular diseases,N/A,N/A
+Indirect Bilirubin result,0.2,0.8,liver,N/A,hemolytic anemia,N/A,N/A
+Direct Bilirubin,0,0.3,liver,N/A,chronic liver disease,N/A,N/A
+Serum Bilirubin,0.2,1.2,liver,N/A,biliary obstruction,N/A,N/A
+Serum Magnesium Result,1.7,2.2,kidney,cardiovascular_system,chronic kidney disease,heart arithmias,N/A
+PPBS,70,140,blood,N/A,diabetes mellitus,N/A,N/A
+Total PSA Result,0,4,blood,N/A,prostate cancer,N/A,N/A
+Serum - Calcium,8.5,10.5,kidney,N/A,thyroid disorders,chronic kidney disease,N/A
+Serum - Uric Acid,2.9,6.5,Kidney,N/A,chronic kidney disease,N/A,N/A
+Blood - Urea,7,20,kidney,N/A,chronic kidney disease,N/A,N/A
+Serum - Phosphorus,2.5,4.5,kidney,N/A,chronic kidney disease,N/A,N/A
+ALP Result,44,147,liver,N/A,biliary obstruction,N/A,N/A
+1 Hr After Plasma Glucose,0,180,blood,N/A,diabetes mellitus,N/A,N/A
+Fasting Plasma Glucose,70,99,blood,N/A,diabetes mellitus,N/A,N/A
+2 Hrs After Plasma Glucose,0,140,blood,N/A,diabetes mellitus,N/A,N/A
+Serum - Alpha Amylase,23,85,pancreas,N/A,pancreatitis,N/A,N/A
+Serum - Albumin Result,3.4,5.4,liver,kidney,chronic kidney disease,chronic liver disease,N/A
+Serum Albumin New Value,3.4,5.4,liver,kidney,chronic kidney disease,chronic liver disease,N/A
+Total Protein New Value,6,8.3,kidney,N/A,chronic kidney disease,N/A,N/A
+Albumin:Globulin Ratio New Value,1.1,2.2,liver,kidney,chronic kidney disease,chronic liver disease,N/A
+Globulin New Value,2,3.5,immune system,liver,chronic Liver disease,N/A,N/A
+Serum - Beta hCG (? hCG),0,5,blood,N/A,pregnancy,N/A,N/A
+Urine for Microalbumin Re,0,30,kidney,N/A,chronic kidney disease,N/A,N/A
+PPBS Post Breakfast,0,140,blood,N/A,diabetes mellitus,N/A,N/A
+Total Bilirubin,0.2,1.2,liver,N/A,biliary obstruction,N/A,N/A
+RBS Result,70,140,blood,N/A,diabetes mellitus,N/A,N/A
+Rheumatoid Factor Titre Result,0,14,joints,N/A,artharities,N/A,N/A
+Free T3,2,4.4,thyroid,N/A,thyroid disorders,N/A,N/A
+Serum - Prolactin Result,4,19,pituitary gland,N/A,prolactinoma,N/A,N/A
+CA 125 Result,0,35,overies,N/A,cancer,N/A,N/A
+Gamma GT,6.5,50,liver,N/A,chronic liver disease,N/A,N/A
+APTT Patient Result,30,40,liver,N/A,chronic liver disease,N/A,N/A
+FSH Result,2.25,11.2,reproductive system,N/A,fertility conditions,N/A,N/A
+PPBS Post Lunch,0,140,blood,N/A,diabetes mellitus,N/A,N/A
+LH,1.6,9.9,pitiutary gland,N/A,hypopituitarism,N/A,N/A
+Triglycerides Value,0,150,blood,N/A,cholestrol,N/A,N/A
+Total Cholesterol Value,0,200,blood,N/A,cholestrol,N/A,N/A
+VLDL-Cholesterol  Value,5,40,blood,N/A,cholestrol,N/A,N/A
+LDL-Cholesterol Value,0,100,blood,N/A,cholestrol,N/A,N/A
+HDL Cholesterol Value,45,N/A,blood,N/A,cholestrol,N/A,N/A
+Cholesterol/HDL Ratio Value,0,5,blood,N/A,cholestrol,N/A,N/A
+Serum Ferritin Result,22.5,275,liver,kidney,chronic kidney disease,cirrhosis,N/A
+LDL/HDL Ratio Value,0,3.5,blood,N/A,cholestrol,N/A,N/A
+Reaction pH Result,4.5,8,kidney,N/A,chronic kidney disease,N/A,N/A
+Urine Volume,800,2000,kidney,N/A,chronic kidney disease,N/A,N/A
+24 Hours Urinary Protein Excretion Value,0,150,kidney,N/A,chronic kidney disease,N/A,N/A
+Hb Result,12.5,16,blood,N/A,anemia,N/A,N/A
+Serum Potassium Result,3.5,5.1,kidney,cardiovascular system,chronic kidney disease,high blood pressure,heart attacks
+Urine Albumin Creatinine Ratio,0,30,kidney,N/A,kidney damage,N/A,N/A
+Total Cholesterol New Value,0,200,blood,N/A,cholestrol,N/A,N/A
+VLDL-Cholesterol New Calculation,5,40,blood,N/A,cholestrol,N/A,N/A
+HDL Cholesterol New Value,45,N/A,blood,N/A,cholestrol,N/A,N/A
+Serum Sodium Result,135,145,thyroid,N/A,thyroid disorders,N/A,N/A
+LDL-Cholesterol New Calculation,0,100,blood,N/A,cholestrol,N/A,N/A
+Triglycerides New Value,0,150,cardiovascular system,N/A,cardiovascular diseases,N/A,N/A
+LDL/HDL Ratio New Calculation,0,3.5,blood,N/A,cholestrol,N/A,N/A
+Cholesterol/HDL Ratio New Calculation,0,5,blood,N/A,cholestrol,N/A,N/A
+Serum - Phosphorus Results,2.5,4.5,kidney,N/A,chronic kidney disease,N/A,N/A
+Serum - Cholesterol - (Random),0,200,cardiovascular system,N/A,cardiovascular diseases,N/A,N/A
+Total Protein Result,6,8.3,kidney,liver,chronic kidney disease,chronic liver disease,N/A
+Globulin Result,2,,kidney,liver,chronic kidney disease,chronic liver disease,N/A
+Serum - Albumin Result,3.4,5.4,kidney,liver,chronic kidney disease,chronic liver disease,N/A
+Alkaline Phosphatase Result,44,147,liver,N/A,liver damage,N/A,N/A
+Urinary Calcium Result,100,300,thyroid,N/A,thyroid disorders,N/A,N/A
+Albumin:Globulin Ratio Result,1.1,2.2,kidney,liver,chronic kidney disease,chronic liver disease,diabetes
+Urinary Creatinine Result,20,320,kidney,N/A,kidney damage,N/A,N/A
+Urinary Calcium^ Value,100,300,kidney,N/A,kidney stones,N/A,N/A
+Free T3 Result,2,4.4,thyroid,N/A,thyroid disorders,N/A,N/A
+Urine Calcium Creatinine Ratio Value,0,0.14,kidney,N/A,kidney damage,N/A,N/A
+Direct Bilirubin Result,0,0.3,liver,N/A,biliary obstruction,N/A,N/A
+Lymphocyte# Result,1,3,immune system,N/A,infections,N/A,N/A
+Lymphocyte%  Result,20,40,immune system,N/A,infections,N/A,N/A
+Monocyte# Result,0.2,1,bone narrow,N/A,chronic inflammation,N/A,N/A
+Glucose Challenge Test (GCT) Result,0,140,pancreas,N/A,diabetes mellitus,N/A,N/A
+Monocyte% Result,2,8,bone narrow,N/A,chronic inflammation,N/A,N/A
+Basophil% Result,0,1,thyroid glands,N/A,thyroid,N/A,N/A
+WBC Result,4,11,Immune system,N/A,infection,leukemia,N/A
+Neutrophils# Result,2,7,Immune system,N/A,infections,N/A,N/A
+ASOT  Result,0,200,Immune system,N/A,infections,N/A,N/A
+Basophil# Result,0,0.1,thyroid,N/A,thyroid disorders,N/A,N/A
+Eosinophil%  Result,1,6,Immune system,N/A,allergies,N/A,N/A
+Eosinophil# Result,0.02,0.5,Immune system,N/A,allergies,N/A,N/A
+Neutrophils% Result,40,70,Immune system,N/A,infections,N/A,N/A
+Urine Sodium,40,220,kidney,N/A,dehydration,N/A,N/A
+2 Hrs After LunchPlasma Glucose,0,140,pancreas,liver,diabetes mellitus,N/A,N/A
+2 Hrs After Dinner Plasma Glucose,0,140,pancreas,liver,diabetes mellitus,N/A,N/A
+Bleeding Time Result,2,7,blood,N/A,platlet function disorders,N/A,N/A
+Urine Potassium,25,125,kidney,N/A,adrenal gland disorders,N/A,N/A
+Urine Chloride,110,250,kidney,N/A,fluid,acid base imbalances,N/A
+Fasting Plasma Glucose Result,70,99,pancreas,N/A,diabetes mellitus,N/A,N/A
+2 Hr After Breakfast Plasma Glucose,0,140,pancreas,liver,diabetes mellitus,N/A,N/A
+PPBS Post Dinner,0,140,pancreas,N/A,diabetes mellitus,N/A,N/A
+Before Dinner Plasma Glucose,70,120,pancreas,liver,diabetes mellitus,N/A,N/A
+Before Lunch Plasma Glucose,70,120,pancreas,N/A,diabetes mellitus,N/A,N/A
+Urine Calcium,100,300,kidney,liver,kidney stones,N/A,N/A
+U volume,800,2000,kidney,N/A,diabetes insipidus,severe dehydration,N/A
+U Protein Result  Value,0,150,kidney,N/A,chronic kidney disease,N/A,N/A
+WBC % Value,40,70,Immune system,N/A,infection,leukemia,N/A
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,        ,,,,
