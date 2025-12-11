@@ -46,9 +46,9 @@ Free T4 Result,0.8,1.8,thyroid,N/A,thyroid disorders,N/A,N/A
 ESR Result,0,15,blood,N/A,inflammation,N/A,N/A
 Specific Gravity Result,1.01,1.03,urinary system,N/A,chronic kidney disease,diabetes,N/A
 SGPT (ALT) Result,7,56,liver,N/A,cirrhosis,N/A,N/A
-Serum - Calcium Result,8.5,10.5,kidney,N/A,thyroid disorders,kidney diseases,N/A
+Serum - Calcium Result,8.5,10.5,kidney,N/A,thyroid disorders,chronic kidney disease,N/A
 CRP Result,0,5,cardiovascular system,N/A,cardiovascular diseases,N/A,N/A
-Total Protein Value,6,8.3,liver,kidney,chronic liver disease,kidney disease,N/A
+Total Protein Value,6,8.3,liver,kidney,chronic liver disease,chronic kidney disease,N/A
 Alkaline Phosphatase Value,44,147,liver,N/A,biliary obstruction,N/A,N/A
 Total Bilirubin value,0.2,1.2,liver,N/A,acute,chronic liver disease,N/A
 GGT Value,6.5,48.5,liver,N/A,chronic liver disease,N/A,N/A
@@ -149,7 +149,7 @@ Monocyte# Result,0.2,1,bone narrow,N/A,chronic inflammation,N/A,N/A
 Glucose Challenge Test (GCT) Result,0,140,pancreas,N/A,diabetes mellitus,N/A,N/A
 Monocyte% Result,2,8,bone narrow,N/A,chronic inflammation,N/A,N/A
 Basophil% Result,0,1,thyroid glands,N/A,thyroid,N/A,N/A
-WBC Result,4,11,Immune system,N/A,infection,leukemia,N/A
+WBC Result,4,11,Immune system,N/A,infections,leukemia,N/A
 Neutrophils# Result,2,7,Immune system,N/A,infections,N/A,N/A
 ASOT  Result,0,200,Immune system,N/A,infections,N/A,N/A
 Basophil# Result,0,0.1,thyroid,N/A,thyroid disorders,N/A,N/A
