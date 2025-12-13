@@ -247,7 +247,7 @@ def to_torch(feature, time, edge_list, graph):
                     '''
                         Our time ranges from 1900 - 2020, largest span is 120.
                     '''
-                    edge_time  += [node_time[tid] - node_time[sid] + 120]
+                    edge_time  += [node_time[tid] - node_time[sid] + 250]
     node_feature = torch.FloatTensor(node_feature)
     node_type    = torch.LongTensor(node_type)
     edge_time    = torch.LongTensor(edge_time)
