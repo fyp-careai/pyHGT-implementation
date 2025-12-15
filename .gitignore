@@ -229,3 +229,6 @@ train_colab.py
 .gitignore
 train_configs.py
 TRAINING_README.md
+
+# MLflow
+mlruns/
