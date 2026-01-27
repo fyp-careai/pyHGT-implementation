@@ -1,4 +1,4 @@
-PatientID,ReportDate,TestName,TestValue,DOB,AgeAtReport,Sex,IsForeign
+patient_id,report_date,test_name,test_value,DOB,age_at_report,sex,is_foreign
 139760,9/2/2024 6:13,Blood Urea Result,66,7/23/1998 0:00,26,Male,0
 139760,9/2/2024 6:14,ASOT  Result ,200,7/23/1998 0:00,26,Male,0
 139760,9/2/2024 6:15,ALP Result,168,7/23/1998 0:00,26,Male,0
