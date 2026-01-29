@@ -233,3 +233,6 @@ TRAINING_README.md
 # MLflow
 mlruns/
 output/
+models_saved/
+loss_curve.png
+metrics_curves.png
