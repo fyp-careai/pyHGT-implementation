@@ -483,11 +483,17 @@ def evaluate(split_idx, graph, time_range, batch_size=64):
 
     all_preds = np.vstack(all_preds)
     all_trues = np.vstack(all_trues)
+# F1 score calculation
+    # Convert probabilities to binary predictions (threshold 0.5)
+    all_preds_binary = (all_preds > 0.5).astype(int)
 
-    f1 = f1_score(all_trues.flatten(), all_preds.flatten(), zero_division=0)
+    # Multi-label F1 scores (without flatten - proper multi-label calculation)
+    f1_macro = f1_score(all_trues, all_preds_binary, average='macro', zero_division=0)
+    f1_micro = f1_score(all_trues, all_preds_binary, average='micro', zero_division=0)
+    f1_weighted = f1_score(all_trues, all_preds_binary, average='weighted', zero_division=0)
 
-    return float(np.mean(losses)), float(f1)
-
+    return float(np.mean(losses)), float(f1_macro), float(f1_micro), float(f1_weighted)
+#======================================
 num_epochs = 20
 batch_size = 64
 sampled_depth=2
@@ -526,11 +532,13 @@ for epoch in range(1, num_epochs+1):
         optimizer.step()
 
         epoch_losses.append(loss.item())
-
+# F1 score display
     train_loss = np.mean(epoch_losses) if epoch_losses else None
-    val_loss, val_f1 = evaluate(val_idx_arr, graph, time_range, batch_size)
+    val_loss, val_f1_macro, val_f1_micro, val_f1_weighted = evaluate(val_idx_arr, graph, time_range, batch_size)
 
-    print(f"Epoch {epoch}: Train Loss = {train_loss:.4f}, Val Loss = {val_loss:.4f}, Val F1 = {val_f1:.4f}")
+    print(f"Epoch {epoch}: Train Loss = {train_loss:.4f}, Val Loss = {val_loss:.4f}")
+    print(f"  Val F1: macro={val_f1_macro:.4f}, micro={val_f1_micro:.4f}, weighted={val_f1_weighted:.4f}")
 
-test_loss, test_f1 = evaluate(test_idx_arr, graph, time_range, batch_size=64)
-print(f"Test Loss = {test_loss:.4f}, Test F1 = {test_f1:.4f}")
+test_loss, test_f1_macro, test_f1_micro, test_f1_weighted = evaluate(test_idx_arr, graph, time_range, batch_size=64)
+print(f"Test Loss = {test_loss:.4f}")
+print(f"Test F1: macro={test_f1_macro:.4f}, micro={test_f1_micro:.4f}, weighted={test_f1_weighted:.4f}")
