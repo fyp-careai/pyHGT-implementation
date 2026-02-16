@@ -1,0 +1,78 @@
+{
+  "disease_to_cluster": {
+    "acid base imbalances": 3,
+    "adrenal gland disorders": 3,
+    "anemia": 7,
+    "artharities": 5,
+    "biliary obstruction": 0,
+    "cardiovascular diseases": 0,
+    "cholestrol": 0,
+    "chronic kidney disease": 0,
+    "chronic liver disease": 0,
+    "cirrhosis": 0,
+    "diabetes insipidus": 8,
+    "diabetes mellitus": 0,
+    "fertility conditions": 1,
+    "fluid": 3,
+    "heart arithmias": 9,
+    "hypopituitarism": 1,
+    "inflammation": 0,
+    "kidney damage": 4,
+    "kidney stones": 0,
+    "liver damage": 0,
+    "pancreatitis": 6,
+    "prolactinoma": 1,
+    "prostate cancer": 2,
+    "renal failure": 0,
+    "severe dehydration": 8,
+    "thyroid disorders": 0
+  },
+  "cluster_to_diseases": {
+    "0": [
+      "biliary obstruction",
+      "cardiovascular diseases",
+      "cholestrol",
+      "chronic kidney disease",
+      "chronic liver disease",
+      "cirrhosis",
+      "diabetes mellitus",
+      "inflammation",
+      "kidney stones",
+      "liver damage",
+      "renal failure",
+      "thyroid disorders"
+    ],
+    "1": [
+      "fertility conditions",
+      "hypopituitarism",
+      "prolactinoma"
+    ],
+    "2": [
+      "prostate cancer"
+    ],
+    "3": [
+      "acid base imbalances",
+      "adrenal gland disorders",
+      "fluid"
+    ],
+    "4": [
+      "kidney damage"
+    ],
+    "5": [
+      "artharities"
+    ],
+    "6": [
+      "pancreatitis"
+    ],
+    "7": [
+      "anemia"
+    ],
+    "8": [
+      "diabetes insipidus",
+      "severe dehydration"
+    ],
+    "9": [
+      "heart arithmias"
+    ]
+  }
+}

@@ -23,13 +23,13 @@ warnings.filterwarnings('ignore')
 
 # Configuration
 DATA_DIR = 'data/'
-INPUT_FILE = 'patient-one-hot-labeled-disease.csv'
+INPUT_FILE = 'patient-one-hot-labeled-disease-new.csv'
 OUTPUT_FILE = 'patient-one-hot-labeled-disease-clustered.csv'
 MAPPING_FILE = 'disease_cluster_mapping.json'
 
 # Cluster range to try (find optimal)
 MIN_CLUSTERS = 4
-MAX_CLUSTERS = 12
+MAX_CLUSTERS = 10
 
 
 def load_data():
